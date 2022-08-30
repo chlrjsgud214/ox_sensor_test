@@ -1,0 +1,3 @@
+C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pioasm/CMakeFiles/rebuild_cache.dir
