@@ -1,7 +1,0 @@
-CMAKE_PROGRESS_1 = 
-<<<<<<< HEAD
-CMAKE_PROGRESS_2 = 49
-=======
-CMAKE_PROGRESS_2 = 36
->>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
-

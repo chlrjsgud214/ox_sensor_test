@@ -31,24 +31,16 @@
 #define _EPD_TEST_H_
 
 #include "DEV_Config.h"
-<<<<<<< HEAD
-#include "Debug.h"
-=======
 // #include "Debug.h"
->>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 #include <stdlib.h> // malloc() free()
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/uart.h"
 #include "hardware/irq.h"
-<<<<<<< HEAD
-#include "string.h"
-=======
 #include <string.h>
 
 
 
->>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 /// \tag::uart_advanced[]
 #define UART_ID0 uart0
 #define UART_ID1 uart1
@@ -69,19 +61,7 @@
 static int chars_rxed0 = 0;
 static int chars_rxed1 = 0;
 
-<<<<<<< HEAD
-typedef struct
-{
-    char *ox_data[UART_RX_MAXLEN];
-    char *temp_data[UART_RX_MAXLEN];
-    char *p_data[UART_RX_MAXLEN];
-    char *oxpar_data[UART_RX_MAXLEN];
-    char *e_data[UART_RX_MAXLEN];
-    uint8_t oxlen;
-} ox_sensor;
-=======
 
->>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 
 int Pico_RS232_test(void);
