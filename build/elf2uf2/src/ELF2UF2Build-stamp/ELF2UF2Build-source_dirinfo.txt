@@ -4,6 +4,10 @@
 
 method=source_dir
 command=
+<<<<<<< HEAD
 source_dir=C:/pico/pico-sdk/tools/elf2uf2
+=======
+source_dir=D:/pico/pico-sdk/tools/elf2uf2
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 work_dir=
 

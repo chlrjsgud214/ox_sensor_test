@@ -53,10 +53,17 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build
+=======
+CMAKE_SOURCE_DIR = C:/gitprj/ox_test
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = C:/gitprj/ox_test/build
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Utility rule file for cyw43_firmware_package.
 
@@ -68,9 +75,15 @@ include pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.d
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
 
+<<<<<<< HEAD
 pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o: C:/pico/pico-sdk/lib/cyw43-driver/firmware/43439A0-7.95.49.00.combined
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_resource.o"
 	cd C:/pico/pico-sdk/lib/cyw43-driver/firmware && C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objcopy.exe -I binary -O elf32-littlearm -B arm --readonly-text --rename-section .data=.big_const,contents,alloc,load,readonly,data --redefine-sym _binary_43439A0_7_95_49_00_combined_start=fw_43439A0_7_95_49_00_start --redefine-sym _binary_43439A0_7_95_49_00_combined_end=fw_43439A0_7_95_49_00_end --redefine-sym _binary_43439A0_7_95_49_00_combined_size=fw_43439A0_7_95_49_00_size 43439A0-7.95.49.00.combined C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
+=======
+pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o: D:/pico/pico-sdk/lib/cyw43-driver/firmware/43439A0-7.95.49.00.combined
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:/gitprj/ox_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_resource.o"
+	cd D:/pico/pico-sdk/lib/cyw43-driver/firmware && D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objcopy.exe -I binary -O elf32-littlearm -B arm --readonly-text --rename-section .data=.big_const,contents,alloc,load,readonly,data --redefine-sym _binary_43439A0_7_95_49_00_combined_start=fw_43439A0_7_95_49_00_start --redefine-sym _binary_43439A0_7_95_49_00_combined_end=fw_43439A0_7_95_49_00_end --redefine-sym _binary_43439A0_7_95_49_00_combined_size=fw_43439A0_7_95_49_00_size 43439A0-7.95.49.00.combined C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package
 cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
@@ -82,10 +95,18 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/clean:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_firmware_package.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/clean
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C C:/pico/pico-sdk/src/rp2_common/cyw43_driver C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_firmware_package.dir/cmake_clean.cmake
+.PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/clean
+
+pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/gitprj/ox_test D:/pico/pico-sdk/src/rp2_common/cyw43_driver C:/gitprj/ox_test/build C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/depend
 

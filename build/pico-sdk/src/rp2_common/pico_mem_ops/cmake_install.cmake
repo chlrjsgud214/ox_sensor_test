@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/pico/pico-sdk/src/rp2_common/pico_mem_ops
+=======
+# Install script for directory: D:/pico/pico-sdk/src/rp2_common/pico_mem_ops
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +38,10 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe")
+=======
+  set(CMAKE_OBJDUMP "D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 endif()
 

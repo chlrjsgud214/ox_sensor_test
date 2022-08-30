@@ -53,10 +53,17 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build
+=======
+CMAKE_SOURCE_DIR = C:/gitprj/ox_test
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = C:/gitprj/ox_test/build
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Include any dependencies generated for this target.
 include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend.make
@@ -70,6 +77,7 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/progress.
 include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/flags.make
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/flags.make
+<<<<<<< HEAD
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj: C:/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2 && C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default.dir/compile_time_choice.S.obj   -c C:/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S
@@ -81,6 +89,19 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choi
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bs2_default.dir/compile_time_choice.S.s"
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2 && C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S -o CMakeFiles/bs2_default.dir/compile_time_choice.S.s
+=======
+pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj: D:/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/gitprj/ox_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2 && D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default.dir/compile_time_choice.S.obj   -c D:/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S
+
+pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bs2_default.dir/compile_time_choice.S.i"
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2 && D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S > CMakeFiles/bs2_default.dir/compile_time_choice.S.i
+
+pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bs2_default.dir/compile_time_choice.S.s"
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2 && D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S -o CMakeFiles/bs2_default.dir/compile_time_choice.S.s
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Object files for target bs2_default
 bs2_default_OBJECTS = \
@@ -91,21 +112,37 @@ bs2_default_EXTERNAL_OBJECTS =
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make
+<<<<<<< HEAD
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf: C:/pico/pico-sdk/src/rp2_common/boot_stage2/boot_stage2.ld
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2 && C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG -Wl,--build-id=none --specs=nosys.specs -nostartfiles -Wl,--script=C:/pico/pico-sdk/src/rp2_common/boot_stage2/boot_stage2.ld -Wl,-Map=bs2_default.elf.map $(bs2_default_OBJECTS) $(bs2_default_EXTERNAL_OBJECTS) -o bs2_default.elf 
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2 && C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe -h C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >bs2_default.dis
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2 && C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe -d C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >>bs2_default.dis
+=======
+pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf: D:/pico/pico-sdk/src/rp2_common/boot_stage2/boot_stage2.ld
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/gitprj/ox_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2 && D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG -Wl,--build-id=none --specs=nosys.specs -nostartfiles -Wl,--script=D:/pico/pico-sdk/src/rp2_common/boot_stage2/boot_stage2.ld -Wl,-Map=bs2_default.elf.map $(bs2_default_OBJECTS) $(bs2_default_EXTERNAL_OBJECTS) -o bs2_default.elf 
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2 && D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe -h C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >bs2_default.dis
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2 && D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe -d C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >>bs2_default.dis
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Rule to build all files generated by this target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C C:/pico/pico-sdk/src/rp2_common/boot_stage2 C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2 C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default.dir/cmake_clean.cmake
+.PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean
+
+pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/gitprj/ox_test D:/pico/pico-sdk/src/rp2_common/boot_stage2 C:/gitprj/ox_test/build C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2 C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/pico/pico-sdk/src/common
+=======
+# Install script for directory: D:/pico/pico-sdk/src/common
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +38,16 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe")
+=======
+  set(CMAKE_OBJDUMP "D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
@@ -50,6 +59,19 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
+=======
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 endif()
 

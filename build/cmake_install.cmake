@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C
+=======
+# Install script for directory: C:/gitprj/ox_test
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +38,25 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe")
+=======
+  set(CMAKE_OBJDUMP "D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/lib/Config/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/lib/Infrared/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/examples/cmake_install.cmake")
+=======
+  include("C:/gitprj/ox_test/build/pico-sdk/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/lib/Config/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/examples/cmake_install.cmake")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 endif()
 
@@ -54,5 +68,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "C:/gitprj/ox_test/build/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

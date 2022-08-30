@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Padded and checksummed version of: C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+=======
+// Padded and checksummed version of: C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 .cpu cortex-m0plus
 .thumb

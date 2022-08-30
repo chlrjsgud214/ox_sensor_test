@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/pico/pico-sdk/src/rp2_common
+=======
+# Install script for directory: D:/pico/pico-sdk/src/rp2_common
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +38,16 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "C:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe")
+=======
+  set(CMAKE_OBJDUMP "D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump.exe")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/hardware_base/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/hardware_claim/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/hardware_adc/cmake_install.cmake")
@@ -91,6 +100,60 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/pico_standard_link/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/pico_fix/cmake_install.cmake")
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/pico_runtime/cmake_install.cmake")
+=======
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_base/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_claim/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_adc/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_clocks/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_dma/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_divider/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_exception/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_flash/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_gpio/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_i2c/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_interp/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_irq/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_pio/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_pll/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_pwm/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_resets/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_rtc/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_spi/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_sync/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_timer/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_uart/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_vreg/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_watchdog/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/hardware_xosc/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_bootrom/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_platform/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/boot_stage2/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_multicore/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_unique_id/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_bit_ops/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_divider/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_double/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_int64_ops/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_float/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_mem_ops/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_malloc/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_printf/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_stdio/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_stdio_semihosting/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_stdio_uart/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cmsis/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/tinyusb/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_stdio_usb/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_lwip/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_cyw43_arch/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_stdlib/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_cxx_options/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_standard_link/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_fix/cmake_install.cmake")
+  include("C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/pico_runtime/cmake_install.cmake")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 endif()
 

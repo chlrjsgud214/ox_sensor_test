@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/CMakeFiles/elf2uf2.dir
 C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/CMakeFiles/edit_cache.dir
 C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/CMakeFiles/rebuild_cache.dir
 C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
 C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+=======
+C:/gitprj/ox_test/build/elf2uf2/CMakeFiles/elf2uf2.dir
+C:/gitprj/ox_test/build/elf2uf2/CMakeFiles/edit_cache.dir
+C:/gitprj/ox_test/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+C:/gitprj/ox_test/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+C:/gitprj/ox_test/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c

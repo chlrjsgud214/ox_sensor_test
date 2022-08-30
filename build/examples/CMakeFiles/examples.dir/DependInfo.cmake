@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
+<<<<<<< HEAD
   "C:/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
   "C:/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "C:/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
@@ -19,6 +20,19 @@ set(CMAKE_DEPENDS_CHECK_ASM
   "C:/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
   "C:/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   "C:/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+=======
+  "D:/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "D:/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "C:/gitprj/ox_test/build/examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
   )
 
 # Preprocessor definitions for this target.
@@ -64,6 +78,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+<<<<<<< HEAD
   "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/examples/../lib/Config"
   "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/examples/../lib/Infrared"
   "C:/pico/pico-sdk/src/common/pico_stdlib/include"
@@ -107,10 +122,55 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   "C:/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
   "C:/pico/pico-sdk/src/rp2_common/hardware_adc/include"
+=======
+  "C:/gitprj/ox_test/examples/../lib/Config"
+  "D:/pico/pico-sdk/src/common/pico_stdlib/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+  "D:/pico/pico-sdk/src/common/pico_base/include"
+  "generated/pico_base"
+  "D:/pico/pico-sdk/src/boards/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_platform/include"
+  "D:/pico/pico-sdk/src/rp2040/hardware_regs/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_base/include"
+  "D:/pico/pico-sdk/src/rp2040/hardware_structs/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+  "D:/pico/pico-sdk/src/common/pico_sync/include"
+  "D:/pico/pico-sdk/src/common/pico_time/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+  "D:/pico/pico-sdk/src/common/pico_util/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_printf/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+  "D:/pico/pico-sdk/src/common/pico_bit_ops/include"
+  "D:/pico/pico-sdk/src/common/pico_divider/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_double/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_float/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+  "D:/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+  "D:/pico/pico-sdk/src/common/pico_binary_info/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+  "D:/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_adc/include"
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "C:/pico/pico-sdk/src/common/pico_sync/critical_section.c" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" "gcc" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d"
   "C:/pico/pico-sdk/src/common/pico_sync/lock_core.c" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" "gcc" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d"
   "C:/pico/pico-sdk/src/common/pico_sync/mutex.c" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" "gcc" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d"
@@ -149,12 +209,56 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/examples/Pico-RS232_test.c" "examples/CMakeFiles/examples.dir/Pico-RS232_test.c.obj" "gcc" "examples/CMakeFiles/examples.dir/Pico-RS232_test.c.obj.d"
   "C:/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "examples/CMakeFiles/examples.dir/C_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
+=======
+  "D:/pico/pico-sdk/src/common/pico_sync/critical_section.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d"
+  "D:/pico/pico-sdk/src/common/pico_sync/lock_core.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d"
+  "D:/pico/pico-sdk/src/common/pico_sync/mutex.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d"
+  "D:/pico/pico-sdk/src/common/pico_sync/sem.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_sync/sem.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d"
+  "D:/pico/pico-sdk/src/common/pico_time/time.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_time/time.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_time/time.c.obj.d"
+  "D:/pico/pico-sdk/src/common/pico_time/timeout_helper.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d"
+  "D:/pico/pico-sdk/src/common/pico_util/datetime.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d"
+  "D:/pico/pico-sdk/src/common/pico_util/pheap.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
+  "D:/pico/pico-sdk/src/common/pico_util/queue.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_double/double_math.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_float/float_math.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_platform/platform.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_printf/printf.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
+  "C:/gitprj/ox_test/examples/Pico-RS232_test.c" "examples/CMakeFiles/examples.dir/Pico-RS232_test.c.obj" "gcc" "examples/CMakeFiles/examples.dir/Pico-RS232_test.c.obj.d"
+  "D:/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "examples/CMakeFiles/examples.dir/D_/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+<<<<<<< HEAD
   "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/lib/Config/CMakeFiles/Config.dir/DependInfo.cmake"
   "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/lib/Infrared/CMakeFiles/Infrared.dir/DependInfo.cmake"
+=======
+  "C:/gitprj/ox_test/build/lib/Config/CMakeFiles/Config.dir/DependInfo.cmake"
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
   )
 
 # Fortran module output directory.

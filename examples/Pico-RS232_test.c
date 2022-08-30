@@ -30,6 +30,7 @@
 #include "EPD_Test.h"
 // #include "string.h"
 
+<<<<<<< HEAD
 static ox_sensor ox; 
 bool Ox_status=false;
 // RX interrupt handler
@@ -37,13 +38,44 @@ void on_uart_rx0() {
     while (uart_is_readable(UART_ID0)) {
         char ch0 = uart_getc(UART_ID0);
         char null[]="";
+=======
+typedef struct _ox_sensor
+{
+    char ox_data[UART_RX_MAXLEN];
+    char temp_data[UART_RX_MAXLEN];
+    char p_data[UART_RX_MAXLEN];
+    char oxpar_data[UART_RX_MAXLEN];
+    char e_data[UART_RX_MAXLEN];
+    uint8_t oxlen;
+} ox_sensor;
+
+ox_sensor ox;
+bool Ox_status=false;
+uint16_t ox_data_len=0;
+
+
+// RX interrupt handler
+void on_uart_rx0() {
+    while (uart_is_readable(UART_ID0)) {
+        uint8_t ch0 = uart_getc(UART_ID0);
+        // char null[]="";
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
         // Can we send it back?
         if (uart_is_writable(UART_ID0)) {
             // Change it slightly first!
             //ch0++;
+<<<<<<< HEAD
             //uart_putc(UART_ID0, ch0);
             if(Ox_status && (ch0 != ' ')){
                 strcat(ox.ox_data,ch0);
+=======
+            //uart_putc(dUART_ID0, ch0);
+            //printf("%c",ch0);
+            if(Ox_status && (ch0 != ' ') && (ch0 != 'e')){
+                ox.ox_data[ox_data_len] = ch0;
+                // printf("%c",ch0);
+                ox_data_len++;
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
             }else{
 
             }
@@ -54,6 +86,7 @@ void on_uart_rx0() {
                 Ox_status=false;
             }else if(ch0=='P'){
                 Ox_status=false;
+<<<<<<< HEAD
             }else if(ch0=='e'){
                 Ox_status=false;
             }else if(ch0=='%'){
@@ -63,6 +96,18 @@ void on_uart_rx0() {
             if(ch0=='\n'){
                 printf("%s \r\n",ox.ox_data);
                 ox.ox_data[0] = '\0';
+=======
+            }else if(ch0=='%'){
+                Ox_status=true;
+            }else if(ch0=='e'){
+                Ox_status=false;
+            }
+            
+            if(ch0=='\r'){
+                //printf("%s \r\n",ox.ox_data);
+            show_oxdata();
+                
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
             }
             // strcat(ch0_str,ch0);
         }
@@ -71,8 +116,15 @@ void on_uart_rx0() {
     // printf("%c",ch0);
 }
 void show_oxdata(void){
+<<<<<<< HEAD
     printf("%c \r\n",ox.ox_data);
     DEV_Delay_ms(1000);
+=======
+    printf("ox : %s % - [uart string test] \r\n", ox.ox_data);
+    ox_data_len=0;
+    memset(ox.ox_data,0,sizeof(struct _ox_sensor));
+    
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 }
 void on_uart_rx1() {
     char ch1_str[]={0x00,};
@@ -88,15 +140,27 @@ void on_uart_rx1() {
             
         }
         chars_rxed1++;
+<<<<<<< HEAD
         printf("%s",ch1_str);
+=======
+        printf("ox : %s '%' - [uart string test]",ch1_str);
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
     }
     // printf("%s uart1 test\r\n",ch1_str);
 }
 
 int Pico_RS232_test(void)
 {
+<<<<<<< HEAD
   // Set up our UART with a basic baud rate.
     stdio_init_all();
+=======
+    // ox.ox_data = "";
+  // Set up our UART with a basic baud rate.
+    stdio_init_all();
+    DEV_Delay_us(100);
+    memset(&ox,0,sizeof(ox_sensor));
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
     uart_init(UART_ID0, 9600);
     uart_init(UART_ID1, 9600);
     // Set the TX and RX pins by using the function select on the GPIO
@@ -137,7 +201,12 @@ int Pico_RS232_test(void)
     // OK, all set up.
     // Lets send a basic string out, and then run a loop and wait for RX interrupts
     // The handler will count them, but also reflect the incoming data back with a slight change!
+<<<<<<< HEAD
     uart_puts(UART_ID0, "\nHello, uart0 interrupts\n");
     uart_puts(UART_ID1, "\nHello, uart1 interrupts\n");
+=======
+    // uart_puts(UART_ID0, "\nHello, uart0 interrupts\n");
+    // uart_puts(UART_ID1, "\nHello, uart1 interrupts\n");
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
     
 }

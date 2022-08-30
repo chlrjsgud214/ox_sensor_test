@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/pico/pico-sdk/tools/elf2uf2
+=======
+# Install script for directory: D:/pico/pico-sdk/tools/elf2uf2
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +38,20 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "C:/tools/mingw32/bin/objdump.exe")
+=======
+  set(CMAKE_OBJDUMP "D:/tools/mingw32/bin/objdump.exe")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/boot_uf2_headers/cmake_install.cmake")
+=======
+  include("C:/gitprj/ox_test/build/elf2uf2/boot_uf2_headers/cmake_install.cmake")
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 endif()
 
@@ -51,5 +63,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "C:/gitprj/ox_test/build/elf2uf2/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

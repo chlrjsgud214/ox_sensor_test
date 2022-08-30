@@ -57,10 +57,17 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build
+=======
+CMAKE_SOURCE_DIR = C:/gitprj/ox_test
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = C:/gitprj/ox_test/build
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +94,24 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/CMakeFiles C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver//CMakeFiles/progress.marks
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/CMakeFiles 0
+=======
+	cd C:/gitprj/ox_test/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/gitprj/ox_test/build/CMakeFiles C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver//CMakeFiles/progress.marks
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/gitprj/ox_test/build/CMakeFiles 0
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/clean
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/clean
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +120,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/preinstall
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/preinstall
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/preinstall
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/preinstall
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd C:/gitprj/ox_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : depend
 
 # Convenience name for target.
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/rule:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/rule
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/rule
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/rule
 
 # Convenience name for target.
@@ -127,12 +160,20 @@ cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_fi
 
 # fast build rule for target.
 cyw43_firmware_package/fast:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : cyw43_firmware_package/fast
 
 # Convenience name for target.
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/rule:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/rule
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/rule
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/rule
 
 # Convenience name for target.
@@ -141,12 +182,20 @@ PioasmBuild: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/rul
 
 # fast build rule for target.
 PioasmBuild/fast:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : PioasmBuild/fast
 
 # Convenience name for target.
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/rule:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/rule
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/rule
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/rule
 
 # Convenience name for target.
@@ -155,7 +204,11 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver
 
 # fast build rule for target.
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
+=======
+	cd C:/gitprj/ox_test/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
 # Help Target
@@ -180,6 +233,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd C:/gitprj/ox_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,17 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build
+=======
+CMAKE_SOURCE_DIR = C:/gitprj/ox_test
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = C:/gitprj/ox_test/build
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -68,9 +75,15 @@ include pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
 
+<<<<<<< HEAD
 pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h: C:/pico/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver && ../../../../pioasm/pioasm.exe -o c-sdk C:/pico/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
+=======
+pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h: D:/pico/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:/gitprj/ox_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver && ../../../../pioasm/pioasm.exe -o c-sdk D:/pico/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
@@ -82,10 +95,18 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
+<<<<<<< HEAD
 	cd C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C C:/pico/pico-sdk/src/rp2_common/cyw43_driver C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
+.PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
+
+pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/gitprj/ox_test D:/pico/pico-sdk/src/rp2_common/cyw43_driver C:/gitprj/ox_test/build C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver C:/gitprj/ox_test/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

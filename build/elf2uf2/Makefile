@@ -57,10 +57,17 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:/pico/pico-sdk/tools/elf2uf2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2
+=======
+CMAKE_SOURCE_DIR = D:/pico/pico-sdk/tools/elf2uf2
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = C:/gitprj/ox_test/build/elf2uf2
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +94,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/CMakeFiles C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Choi/Downloads/Pico_2CH_RS232_Code/C/build/elf2uf2/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/gitprj/ox_test/build/elf2uf2/CMakeFiles C:/gitprj/ox_test/build/elf2uf2//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/gitprj/ox_test/build/elf2uf2/CMakeFiles 0
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
 .PHONY : all
 
 # The main clean target

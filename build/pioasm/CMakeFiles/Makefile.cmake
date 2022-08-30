@@ -86,7 +86,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.0/CMakeRCCompiler.cmake"
   "CMakeFiles/3.24.0/CMakeSystem.cmake"
+<<<<<<< HEAD
   "C:/pico/pico-sdk/tools/pioasm/CMakeLists.txt"
+=======
+  "D:/pico/pico-sdk/tools/pioasm/CMakeLists.txt"
+>>>>>>> 7e056f6a9e5cd0170e6eb811af27530bfa236c2c
   )
 
 # The corresponding makefile is:
