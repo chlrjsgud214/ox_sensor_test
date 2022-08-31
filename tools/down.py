@@ -4,7 +4,7 @@ import time
 import serial
 
 
-com_port  = "COM4"
+com_port  = "COM11"
 file_name = "../build/main"
 
 
